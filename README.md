@@ -114,5 +114,6 @@ Para fazer isso usamos a estrutura de formatação f com strings.
 
 `nota_entrada = float(input('Digite a nota do teste de ingresso: '))
 print(f'Ano de entrada {ano_entrada} - nota do teste de ingresso {nota_entrada}´)`
+
 Digite a nota do teste de ingresso: 9.0
 Ano de entrada 2023 - nota do teste de ingresso 9.0
