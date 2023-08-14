@@ -1,6 +1,6 @@
 # Atividades Python
 
-**Variáveis numéricas**
+## Variáveis numéricas
 
 | ---   | 
 |   ---   |   
@@ -26,3 +26,11 @@ diferenca_salario
 media = (q_seguranca*s_seguranca + q_docente*s_docente + q_diretoria*s_diretoria) / (total_empregados)
 media
 
+## STRINGS
+
+### Usando os métodos
+texto = '  Geovana Alessandra dias Sanyos '
+
+Temos o texto, que se refere ao nome da professora e a string, com dois espaços antes do nome dela e outro espaço após. Vamos rodar essa célula e objetivo é que, ao final, o nome esteja da seguinte forma:
+
+'GEOVANA ALESSANDRA DIAS SANTOS'
