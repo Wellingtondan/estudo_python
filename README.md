@@ -74,6 +74,40 @@ texto`
 
 'GEOVANA ALESSANDRA DIAS SANTOS'
 
+### Coletando dados
+Em algumas aplicações precisamos coletar valores da pessoa usuária do nosso projeto. Em python conseguimos coletar dados de usuário através do comando input().
+
+Para fazer essa coleta podemos atribuir essa função à uma variável.
+
+`nome = input('Escreva seu nome: ')`
+Escreva seu nome: Wellington
+
+`nome`
+'WEllington'
+
+O retorno desse comando sempre será uma *string*. Isso quer dizer que mesmo que façamos uma coleta de algo que deva ser numérico, ele será uma string.
+
+Então, será preciso converter o resultado caso não seja desejável obter uma string.
+
+Existem funções para conversão de valores:
+
+- Inteiros: _int(dado_para_conversao)_
+- Float:  _float(dado_para_conversao) _
+- String:  _str(dado_para_conversao) _
+- Booleano:  _bool(dado_para_conversao)_
+
+`ano_entrada = input('Escreva o ano de ingresso do(a) estudante: ')`
+Escreva o ano de ingresso do(a) estudante: 2023
+
+`type(ano_entrada)`
+str
+
+`ano_entrada = int(input('Escreva o ano de ingresso do(a) estudante: '))`
+Escreva o ano de ingresso do(a) estudante: 2023
+
+`type(ano_entrada)`
+int
+
 
 
 
