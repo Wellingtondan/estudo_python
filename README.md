@@ -83,7 +83,7 @@ Para fazer essa coleta podemos atribuir essa função à uma variável.
 Escreva seu nome: Wellington
 
 `nome`
-'WEllington'
+'Wellington'
 
 O retorno desse comando sempre será uma *string*. Isso quer dizer que mesmo que façamos uma coleta de algo que deva ser numérico, ele será uma string.
 
@@ -92,20 +92,24 @@ Então, será preciso converter o resultado caso não seja desejável obter uma 
 Existem funções para conversão de valores:
 
 - Inteiros: _int(dado_para_conversao)_
-- Float:  _float(dado_para_conversao) _
-- String:  _str(dado_para_conversao) _
+- Float:  _float(dado_para_conversao)_
+- String:  _str(dado_para_conversao)_
 - Booleano:  _bool(dado_para_conversao)_
 
 `ano_entrada = input('Escreva o ano de ingresso do(a) estudante: ')`
+
 Escreva o ano de ingresso do(a) estudante: 2023
 
 `type(ano_entrada)`
+
 str
 
 `ano_entrada = int(input('Escreva o ano de ingresso do(a) estudante: '))`
+
 Escreva o ano de ingresso do(a) estudante: 2023
 
 `type(ano_entrada)`
+
 int
 
 Buscaremos apresentar melhor agora o resultado que obtivemos da transformação. Nós conseguimos formatar e apresentar o nosso resultado misturando strings com valores não textuais.
