@@ -3,7 +3,6 @@
 **Variáveis numéricas**
 
 q_seguranca = 5
-
 s_seguranca = 3000
 
 q_docente = 16
