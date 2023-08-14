@@ -1,6 +1,7 @@
 # Atividades Python
 
 **Variáveis numéricas**
+
 q_seguranca = 5
 s_seguranca = 3000
 
