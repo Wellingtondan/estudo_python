@@ -108,6 +108,11 @@ Escreva o ano de ingresso do(a) estudante: 2023
 `type(ano_entrada)`
 int
 
+Buscaremos apresentar melhor agora o resultado que obtivemos da transformação. Nós conseguimos formatar e apresentar o nosso resultado misturando strings com valores não textuais.
 
+Para fazer isso usamos a estrutura de formatação f com strings.
 
-
+`nota_entrada = float(input('Digite a nota do teste de ingresso: '))
+print(f'Ano de entrada {ano_entrada} - nota do teste de ingresso {nota_entrada}´)`
+Digite a nota do teste de ingresso: 9.0
+Ano de entrada 2023 - nota do teste de ingresso 9.0
